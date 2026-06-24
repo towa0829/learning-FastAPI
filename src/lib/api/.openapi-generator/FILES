@@ -1,0 +1,17 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+docs/DefaultApi.md
+docs/HTTPValidationError.md
+docs/LocationInner.md
+docs/Todo.md
+docs/UserCreate.md
+docs/ValidationError.md
+index.ts
+models/HTTPValidationError.ts
+models/LocationInner.ts
+models/Todo.ts
+models/UserCreate.ts
+models/ValidationError.ts
+models/index.ts
+runtime.ts
