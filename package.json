@@ -1,0 +1,22 @@
+{
+  "name": "learning-fastapi",
+  "version": "1.0.0",
+  "description": "FastAPI + SQLAlchemy + SQLite を使ったシンプルな Todo API の学習用プロジェクトです。JWT を使ったユーザー認証も実装しています。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:api": "openapi-generator-cli generate -i http://localhost:8000/openapi.json -g typescript-fetch -o ./src/lib/api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towa0829/learning-FastAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/towa0829/learning-FastAPI/issues"
+  },
+  "homepage": "https://github.com/towa0829/learning-FastAPI#readme"
+}
